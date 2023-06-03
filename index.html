@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1.0, initial-scale=1.0">
+    <title>Restaurant</title>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <section>
+            <img src="" alt="logo">
+            <h1>Restaurant</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+        </section>
+    </header>
+    <!--End Header-->
+
+
+    <!--Main-->
+    <main class="main">
+        <section>
+            <div style="padding: 50px;">
+                <form id="form">
+                    <h2 class="sub" align = "center">Food Menu</h2>
+                    <label align="center">The Food Name:</label>
+                    <input type="text" name="fname" id="fdName" required><br>
+                    <label align="center">Types of food:</label>
+                    <select  id="Types" required>
+                        <option name="Types" value="Fast Food" style="font-weight:bold;" >Fast Food</option>
+                        <option name="Types" value="Sea food" style="font-weight:bold;">Sea food</option>
+                        <option name="Types" value="Traditional Food" style="font-weight:bold;">Traditional Food</option>
+                        <option name="Types" value="Salads" style="font-weight:bold;">Salads</option>
+                      </select>
+                      <label align="center">Prices:</label>
+                    <input type="number" name="fdprice" id="fdPrice" required><br>
+                    <input type="submit" name="submit" id="submit" value="Done"><br>
+                  </form>
+                 
+                </div>
+                
+                <div id="render"></div>
+        </section>
+    </main>
+    <!--End Main-->
+
+
+    <!--Footer-->
+    <footer>
+        <section> 
+            <h3>COPY@ Right 2023 Restaurant</h3>
+            <a href="https://github.com/SajaAbuKharma">GitHub</a>
+        </section>
+    </footer>
+    <!--End Footer-->
+
+    
+   
+
+ <!--Script-->
+ <script src="js/app.js"></script>
+ <!--End Script-->
+ 
+
+
+</body>
+
+</html>
