@@ -1,0 +1,140 @@
+body {
+            
+    font-family: Arial;
+    margin: 3;
+    padding: 2;
+}
+header{
+    background-color: #0a0a0a;
+    color: #e2d0d5;
+    padding: 20px;
+}
+header h1 { 
+    margin: 0;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header li a {
+    text-decoration: none;
+    color:#ce80b4;}
+
+
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color:#080708;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #b65b97;
+}
+
+footer a {
+    color: #ce91cb;
+    text-decoration: none;
+    
+}
+ main{
+      display:grid;
+      flex-wrap:wrap;
+      justify-content: center;
+}
+ main{
+    background-color: #ce91cb;
+ }
+ label{
+    align-content: center;
+    width: 100%;
+    display: flex;
+    margin: 4px;
+    font-size: 20px;
+    color: #060107;
+}
+input{
+    width: 40%;
+    display: inline-block;
+    margin: 4px;
+    height: 25px;
+    color: rgb(202, 159, 159);
+    font-weight: bolder;
+    font-size: 15px;
+    
+}
+/*#Types{
+    width: 40%;
+    display:flexbox
+    margin: 4px;
+    height: 25px;
+    font-weight: bold; 
+    font-size:15px; 
+    color : rgb(202, 160, 160);
+}*/
+#submit{
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+    font-size: 20px;
+}
+form{
+    border-radius: 20px;
+        color: rgb(255, 255, 255);
+        width: 800px;
+        padding: 10px;
+        font-weight: bold;
+  
+        
+}
+.sub{
+    
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0);
+} 
+#render{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+table{
+    border: 2px ,solid, rgb(226, 164, 164);
+    border-collapse: collapse;
+  width: 100%;
+  height: 40px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  font-size: 20px;
+    
+}
+
+th{
+  padding: 5px;
+  background-color: rgb(202, 161, 161);
+  background-position: center;
+    border: 5px solid black;
+    color: white;
+    font-size: 25px;
+}
+td{
+    padding: 10px;
+    border: 15px solid black;  
+    background-color: rgb(196, 156, 156);
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+}
